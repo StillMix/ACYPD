@@ -12,7 +12,7 @@ class Api {
 
   backUser() {
     return fetch(
-      `http://localhost:3001/users/backuser`,
+      `https://serveracypd.netlify.app/.netlify/functions/api/users/backuser`,
       {
         method: "POST",
         headers: {
@@ -27,7 +27,7 @@ class Api {
 }
 
 const api = new Api({
-  url: "http://localhost:3001",
+  url: "https://serveracypd.netlify.app/.netlify/functions/api",
 });
 
 export default api;

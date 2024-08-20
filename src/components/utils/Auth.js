@@ -67,7 +67,7 @@ getContent(){
 }
 
 export const mestoAuth = new Auth({
-  url: 'http://localhost:3001',
+  url: 'https://serveracypd.netlify.app/.netlify/functions/api',
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
