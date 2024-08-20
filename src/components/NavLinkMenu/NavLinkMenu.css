@@ -1,0 +1,198 @@
+.NavLinkMenu {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 15.8333%;
+  height: 100%;
+  background: #151515;
+  border-radius: 0 10px 10px 0;
+}
+
+.NavLinkMenu__logoContainer {
+  width: 100%;
+  height: 7.69%;
+  border-bottom: 2px solid #333333;
+  position: relative;
+}
+
+.NavLinkMenu__logo {
+  width: 46.05%;
+  height: 34.94%;
+  position: absolute;
+  left: 9.87%;
+  bottom: 28.92%;
+}
+
+.NavLinkMenu__linksContainer {
+  text-align: left;
+  height: 57.31%;
+
+}
+
+.NavLinkMenu_linksContainer_title {
+  margin-top: 10px;
+  margin-left: 9.87%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.04vw;
+  line-height: 1.1vw;
+  color: #333333;
+}
+
+.NavLinkMenu_links {
+  margin-top: 13px;
+  margin-left: 9.87%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.NavLinkMenu_link_img {
+  margin-right: 4%;
+  display: none;
+  /* Скрываем изображение по умолчанию */
+  width: 7.017%;
+  height: 50%;
+}
+
+.NavLinkMenu__link {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8854vw;
+  line-height: 1vw;
+  max-width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 4.2%;
+}
+
+.NavLinkMenu__link::nth-last-child(2) {
+  margin: 0;
+}
+
+.NavLinkMenu__link:last-child {
+  height: 15%;
+  margin: 0;
+}
+
+.NavLinkMenu__link.active {
+  margin: 0;
+  margin-bottom: 3.23%;
+  padding: 3% 0 3% 5.26%;
+  border-radius: 9px 0 0 9px;
+  background-color: #262626;
+}
+
+.NavLinkMenu__link.active::before {
+  content: "";
+  /* Обязательное свойство для псевдоэлемента */
+  position: absolute;
+  top: 50%;
+  /* Положение по вертикали */
+  left: 0;
+  /* Прижимаем к краю активной ссылки */
+  transform: translateY(-50%);
+  /* Смещение на половину высоты элемента по вертикали */
+  width: 5px;
+  /* Ширина овала */
+  height: 100%;
+  /* Высота овала */
+  background-color: white;
+  /* Цвет овала */
+  border-radius: 0 50px 50px 0;
+  /* Форма овала */
+  z-index: -1;
+  /* Помещаем овал под активной ссылкой */
+  margin-left: -11%;
+  /* Сдвигаем на отрицательное значение отступа слева */
+}
+
+.NavLinkMenu__link.active .NavLinkMenu_link_img_active {
+  display: inline;
+  /* Показываем изображение для активной ссылки */
+}
+
+.NavLinkMenu__link .NavLinkMenu_link_img_inactive {
+  display: inline;
+  /* Показываем изображение для неактивной ссылки */
+}
+
+.NavLinkMenu__link.active .NavLinkMenu_link_img_inactive {
+  display: none;
+}
+
+.NavLinkMenu__adminPanelContainer {
+  text-align: left;
+  height: 25%;
+  width: 100%;
+}
+
+
+
+
+.NavLinkMenu__adminPanelContainer_title {
+  margin-top: 10px;
+  margin-left: 9.87%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.04vw;
+  line-height: 1.1vw;
+  color: #333333;
+}
+
+.NavLinkMenu_adminPanelContainer_link {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8854vw;
+  line-height: 1vw;
+  max-width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 4.2%;
+}
+
+.NavLinkMenu__settingsContainer {
+  border-top: 2px solid #333333;
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+}
+
+.NavLinkMenu__settingsContainer_btn {
+  cursor: pointer;
+  margin-left: 9.87%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  background: transparent;
+  font-size: 0.8854vw;
+  color: #fff;
+}
+
+.NavLinkMenu__settingsContainer_btn img{
+  margin-right: 8px;
+}
+

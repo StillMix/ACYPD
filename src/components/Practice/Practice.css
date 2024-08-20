@@ -1,0 +1,14 @@
+.practice {
+    position: absolute;
+    width: 84.1667%;
+    right: 0;
+    height: 100%;
+    text-align: left;
+    background: #cbbfff;
+  }
+
+  .practice__container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }

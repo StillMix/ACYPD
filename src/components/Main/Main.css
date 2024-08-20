@@ -1,0 +1,128 @@
+.main {
+  position: absolute;
+  width: 84.1667%;
+  right: 0;
+  height: 100%;
+  text-align: left;
+  background: #cbbfff;
+}
+
+.main__title {
+  margin-top: 1.36%;
+  margin-left: 1.48%;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: clamp(0.25rem, 0.2115rem + 1.5385vw, 1.25rem);
+  letter-spacing: -0.01em;
+  color: #000;
+}
+
+.main__title img {
+  width: 1.57%;
+  height: 1.85%;
+  margin-right: 0.224%;
+}
+
+.main__container {
+  margin-top: 28px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: calc(100vh - 90px);
+}
+
+.main__container__teach {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: clamp(0.25rem, 0.2115rem + 1.5385vw, 1.25rem);
+  background: #151515;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.main__container__teach:hover {
+  width: 85%;
+  height: 70px;
+}
+
+.main__teach {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+.main__teach__bck {
+  width: 100%;
+  height: 100%;
+  background: #000000b2;
+  z-index: 100;
+}
+
+.main__teach__bck__popup {
+  width: 50%;
+  height: 80%;
+  background: #151515;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50px;
+  z-index: 102;
+}
+
+
+.main__teach__bck__popup__title{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: clamp(0.25rem, 0.2115rem + 1.5385vw, 1.25rem);
+  color: white;
+  margin-top: 30px;
+}
+
+.main__teach__bck__popup__text{
+  width: 80%;
+  height: 60%;
+  overflow-y: auto;
+  font-weight: 300;
+  font-size: clamp(0.25rem, 0.2115rem + 1.5385vw, 1.25rem);
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.main__teach__bck__popup__btn{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #782cd8;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main__teach__bck__popup__btn:hover{
+opacity: 0.8;
+}
+
+.disable{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}

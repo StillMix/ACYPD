@@ -1,0 +1,115 @@
+.loginBody {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #cbbfff;
+}
+
+.loginBody__img {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  height: 37.41%; /* 404px от 1080px */
+  width: 165.73%; /* 3182px от 1920px */
+}
+
+.loginPopup {
+  text-align: left;
+  border-radius: 40px;
+  background: #151515;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  width: 54.0625%;
+  height: 53.7962%;
+  position: fixed; /* или absolute, в зависимости от контекста */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginPopup__container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.loginPopup__containerLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPopup__logo {
+  width: 315px;
+  height: 69px;
+}
+
+.loginPopup__inputs {
+  width: 100%;
+  text-align: right;
+  display: block;
+}
+
+.loginPopup__inputs__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 61px;
+}
+.loginPopup__inputs__subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 6px;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+.input {
+  display: block;
+  background: #0e0e0e;
+  border-radius: 130px;
+  width: 90%;
+  height: 48px;
+  padding-left: 46px;
+  color: white;
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginPopup__btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 130px;
+width: 343px;
+height: 48px;
+background: #782cd8;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 15px;
+cursor: pointer;
+color: #fff;
+margin-top: 76px;
+}
+
+.loginPopup__btn__reg{
+  border: none;
+  background: transparent;
+  color: #782cd8;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.loginPopup__btn__reg:hover{
+opacity: 0.8;
+}
