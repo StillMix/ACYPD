@@ -1,4 +1,4 @@
-.practice {
+.itog {
     position: absolute;
     width: 84.1667%;
     right: 0;
@@ -7,7 +7,7 @@
     background: #cbbfff;
   }
 
-  .practice__container{
+  .itog__container{
     width: 95%;
     margin-left: auto;
     margin-right: auto;

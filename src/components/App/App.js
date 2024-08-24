@@ -8,6 +8,7 @@ import { mestoAuth } from "../utils/Auth";
 import api from "../utils/Api.js";
 import Quiz from "../Quiz/Quiz.js";
 import Practice from "../Practice/Practice.js";
+import Itog from "../itog/itog.js";
 
 function App(props) {
   const navigate = useNavigate();
@@ -97,6 +98,7 @@ function App(props) {
         <Route path="/register" element={<Register handleSubmit={register} back={backUser} />} />
         <Route path="/quiz" element={<Quiz  back={backUser} />} />
         <Route path="/practice" element={<Practice back={backUser} />} />
+        <Route path="/itog" element={<Itog back={backUser} />} />
       </Routes>
     </div>
   );

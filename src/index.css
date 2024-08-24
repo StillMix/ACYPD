@@ -43,3 +43,27 @@ code {
   margin: 0;
   padding: 0;
 }
+
+::-webkit-scrollbar{
+  width: 7px;
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar-track{
+   background: transparent;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: #414141;
+  border-radius: 8px;
+  
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+  background: #333333;
+
+}

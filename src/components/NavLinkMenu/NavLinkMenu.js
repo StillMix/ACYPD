@@ -24,6 +24,9 @@ function NavLinkMenu(props) {
           <NavLink to="/practice" className="NavLinkMenu__link">
             Практика
           </NavLink>
+          <NavLink to="/itog" className="NavLinkMenu__link">
+          Итоговое проектное задание
+          </NavLink>
         </nav>
       </div>
       <div className="NavLinkMenu__settingsContainer">

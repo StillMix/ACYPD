@@ -55,6 +55,51 @@ function Practice(props) {
       ],
       cel: "Улучшить навыки общения и участия в команде разработчиков, работающих над Open Source проектом.",
     },
+    {
+      name: "Работа с автоматизированной системой анализа типа нагрузки и оптимизации производительности сервера на основе AI моделей A-Tune",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Работа с системой исправления уязвимостей SysCare",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Освоение технологий контейнер-ной виртуализации Kmesh, k8s, iSula, Kata-containers",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Работа с системой виртуализации StratoVirt",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Работа с системой контейнерной виртуализации iSula",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Работа с системой обнаружения вторжений SecDetector",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Работа с системой инициализации SysMaster",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Отработка навыков работы с диспетчером устройств DevMaster",
+      zadan: "",
+      cel: "",
+    },
+    {
+      name: "Портирование/сборка собственных программных решений и создание собственного репозитория программных решений OpenScaler",
+      zadan: "",
+      cel: "",
+    },
   ];
 
   return (
@@ -85,11 +130,13 @@ function Practice(props) {
             <p className="main__teach__bck__popup__title">{name}</p>
             <div className="main__teach__bck__popup__text">
               <ul>
-                {text.map((task, index) => (
+                { text && text.map((task, index) => (
                   <li key={index}>{index + 1}: {task}</li>
                 ))}
               </ul>
-              <p><strong>Цель:</strong> {cel}</p>
+             {
+              cel && <p><strong>Цель:</strong> {cel}</p>
+             } 
             </div>
             <button
               onClick={() => setOpen(false)}

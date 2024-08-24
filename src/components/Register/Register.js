@@ -32,6 +32,7 @@ function Register(props) {
             <p className="loginPopup__inputs__subtitle">
               ЗАРЕГИСТРИРУЙТЕ СВОЙ АККАУНТ
             </p>
+            
              <form onSubmit={handleSubmit}>
              <input
               id="profile-email-input"

@@ -5,6 +5,7 @@
   height: 100%;
   text-align: left;
   background: #cbbfff;
+  padding-bottom: 40px;
 }
 
 .main__title {
@@ -32,7 +33,6 @@
   margin-right: auto;
   height: calc(100vh - 90px);
 }
-
 .main__container__teach {
   width: 80%;
   height: 50px;
@@ -47,6 +47,7 @@
   border-radius: 50px;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s ease; 
 }
 
 .main__container__teach:hover {
@@ -93,7 +94,7 @@
 
 .main__teach__bck__popup__text{
   width: 80%;
-  height: 60%;
+  height: 62%;
   overflow-y: auto;
   font-weight: 300;
   font-size: clamp(0.25rem, 0.2115rem + 1.5385vw, 1.25rem);
@@ -102,6 +103,20 @@
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main__teach__bck__popup__text p{
+  font-weight: 300;
+  font-size: clamp(0.25rem, 0.2115rem + 1.5385vw, 1.25rem);
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.main__teach__bck__popup__text ul{
+
+  margin-top: 15px;
+
 }
 
 
